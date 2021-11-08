@@ -1,0 +1,5 @@
+aiohttp
+scipy
+pdfplumber
+camelot
+PyPDF2
