@@ -3,7 +3,7 @@ from logging import warning
 
 import numpy as np
 import pandas as pd
-#from scipy import spatial
+from scipy import spatial
 
 
 def post_processing_aibi_version(dataframe):
@@ -51,11 +51,11 @@ def image_vectorization(image: np.ndarray) -> np.ndarray:
     length, height, depth = image.shape
     return image.reshape((length * height * depth, 1))
 
-#def distance_comparison(image_array, original_image_vector):
-#    result_list = []
-#    for array in original_image_vector:
-#        result_list.append(1 - spatial.distance.cosine(image_array, array))
-#    return np.argmax(result_list)
+def distance_comparison(image_array, original_image_vector):
+    result_list = []
+    for array in original_image_vector:
+        result_list.append(1 - spatial.distance.cosine(image_array, array))
+    return np.argmax(result_list)
 
 def preprocessing_dataframe(dataframe):
     dataframe["City"] = dataframe["City"].str.split(",")
