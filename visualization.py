@@ -136,7 +136,14 @@ def main():
     data = pd.DataFrame()
     st.title("Risk Assessment 3PA")
     st.markdown("> __Analysis the 3PA documents base on different attribute and connecting with outside database__")
-    
+    st.markdown("> __Please look at the instruction before start surfing the web.__")
+    st.markdown("> __With each of the graph, there will be an explanation on the uses and purpose of using this specific graph__")
+    with st.expander("Instruction"):
+        st.markdown("__When you first open the app, please follow the instruction here to have the best experience__")
+        st.markdown("On the top right corner of the app, there is a __3 line button__, please press on that one and choose __Setting__ ")
+        st.markdown("After that, under the __APPEARANCE__ tab, please tick __WIDE MODE__")
+        st.markdown("This would improve your experience on the website. Thank you")
+        
     
     add_selectbox = st.sidebar.selectbox(
         "How do you want to analysis the files ?",
@@ -144,9 +151,13 @@ def main():
     )
     
     if add_selectbox == "Cross-Analysis":
+        with st.sidebar.expander("Defition and Usage:"):
+            st.write("The uses of cross-analysis is to help user compare between all of the files that they upload on when doing risk analysis on Otrafy. This give the user a clearer view of all of the files without spending time to read")
         cross_analysis()
     
     elif add_selectbox == "Single File Analysis":
+        with st.sidebar.expander("Defition and Usage:"):
+            st.write("With Single File Analysis, user will focus on one specific file that they interested in or they curious to understand more about the file specifically.")
         single_analysis()
 
 if __name__ == "__main__":
