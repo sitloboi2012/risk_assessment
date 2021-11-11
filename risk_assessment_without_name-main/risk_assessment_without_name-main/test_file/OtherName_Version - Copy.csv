@@ -1,0 +1,15 @@
+Organisation Name,Latitude,Longtitude,City,County,FIPS,Country,Client Representative,CB Name and Location,Audit Type,Previous Audit Type,Audit Recommendation,Critical Nonconformities,Major Nonconformities,Minor Nonconformities
+Company A,39.103119,-84.512016,Cincinnati,Ohio,18115,United States,Shana Morrisette,SGS United Kingdom,Surveillance - Announced,Surveillance - Announced,Certification maintained,0,0,5
+Company B,40.201023,-77.200272,Carlisle,Iowa,19095,United States,Daniel Allen,SGS United Kingdom,Surveillance - Announced,Recertification,Certification maintained,0,0,2
+Company C,41.977879,-91.665627,Cedar Rapids,Iowa,19095,United States,Brian Paltjon,SGS United Kingdom,Recertification,Surveillance - Announced,Certification maintained,0,0,3
+Company A,44.863041,-93.540138,Chanhassen,Minnesota,1033,United States,Michelle Sandy,SGS United Kingdom,Audit type,Surveillance - Unannounced,Certification maintained,0,0,9
+Company B,40.741895,-73.989308,Buffalo,New York,36061,United States,Craig Siebert,SGS United Kingdom,Surveillance - Announced,Recertification,Certification maintained,0,0,5
+Company C,39.103119,-84.512016,Cincinnati,Ohio,18115,United States,Ms. Catherine Lyerly,SGS United Kingdom,Recertification Announced,Surveillance,Certification maintained,0,0,1
+Company A,41.977879,-91.665627,Cedar Rapids,Iowa,19095,United States,Mr. Brian Paltjon (Quality Manager),SGS United Kingdom,Surveillance Announced,Recertification,Certification maintained,0,0,1
+Company B,46.3040364,-109.1714312,Golden Valley,Minnesota,1033,United States,"Shana Morrissette, Global Internal Auditor & FSSC Manager 
+Site: Mr. Daniel Allen (FSQ Manager)",SGS United Kingdom,Surveillance,Stage 2,Certification maintained,0,0,3
+Company C,44.863041,-93.540138,Chanhassen,Minnesota,1033,United States,Nate Johnson,SGS United Kingdom,Recertification Announced,Surveillance,Certification maintained,0,0,1
+Company A,39.103119,-84.512016,Cincinnati,Ohio,18115,United States,Brian Paxton,AIBI-CS,Surveillance audit,Upgrade (surveillance 2),Continue certification,0,0,5
+Company B,41.977879,-91.665627,Cedar Rapids,Iowa,19095,United States,John Wall,AIBI-CS,Surveillance audit,Upgrade (surveillance 1),Continue certification,0,0,3
+Company C,40.741895,-73.989308,Buffalo,New York,36061,United States,Craig Siebert,AIBI-CS,Surveillance audit,Upgrade (surveillance 2),Re-certification,0,0,8
+Company C,44.863041,-93.540138,Chanhassen,Minnesota,1033,United States,Franz Arvold,AIBI-CS,Surveillance audit,Upgrade (surveillance 1),Continue certification,0,0,10
